@@ -22,15 +22,15 @@ function helloName(name) {
   return 'Hello, Kabare!';
 }
 helloName('Kabare')
-console.log('Inside heeloName:', helloName())
+console.log('Inside helloName:', helloName())
 // Remember to call the function to test
 
 
 // 3. Function to add two numbers together & return the result
-function addNumbers(firstNumber) {
-  // return firstNumber + secondNumber;
+function addNumbers(firstNumber, secondNumber) {
+  return firstNumber + secondNumber;
 }
-
+addNumbers(3, 8)
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree(numb1, numb2, numb3) {
