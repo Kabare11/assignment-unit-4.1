@@ -8,6 +8,9 @@ console.log('***** Function Practice *****');
 function hello() {
   return 'Hello World!';
 }
+
+hello();
+console.log('INSIDE HELLO FUNCTION:', hello())
 // Call the function to test
 console.log('Test - should say "Hello World!"', hello());
 
@@ -21,9 +24,12 @@ function helloName(name) {
 
 
 // 3. Function to add two numbers together & return the result
-function addNumbers(firstNumber) {
+function addNumbers(firstNumber, secondNumber) {
   // return firstNumber + secondNumber;
+  return firstNumber + secondNumber;
+
 }
+addNumbers(7, 4)
 
 
 // 4. Function to multiply three numbers & return the result
